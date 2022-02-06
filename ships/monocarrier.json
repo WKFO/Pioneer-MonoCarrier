@@ -1,0 +1,44 @@
+{
+	"model": "monocarrier",
+	"name": "Monolithic Carrier",
+	"cockpit": "",
+	"manufacturer": "haber",
+	"ship_class": "heavy_freighter",
+	"min_crew": 15,
+	"max_crew": 80,
+	"price": 255500000,
+	"hull_mass": 500,
+	"atmospheric_pressure_limit": 3.2,
+	"capacity": 3100,
+	"slots": {
+		"engine": 1,
+		"cabin": 50,
+		"laser_front": 1,
+		"laser_rear": 1,
+		"missile": 2,
+		"cargo": 2800
+	},
+	"roles": ["merchant"],
+	
+	"tag" : "static",
+	
+	"effective_exhaust_velocity": 18900000,
+	"thruster_fuel_use": -1.0,
+	"fuel_tank_mass": 2100,
+	"hyperdrive_class": 7,
+
+	"forward_thrust": 10,
+	"forward_acceleration_cap": 10,
+	"reverse_thrust": 10,
+	"reverse_acceleration_cap": 10,
+	"up_thrust": 10,
+	"up_acceleration_cap": 10,
+	"down_thrust": 10,
+	"down_acceleration_cap": 10,
+	"left_thrust": 10,
+	"left_acceleration_cap": 10,
+	"right_thrust": 10,
+	"right_acceleration_cap": 10,
+
+	"angular_thrust": 10
+}

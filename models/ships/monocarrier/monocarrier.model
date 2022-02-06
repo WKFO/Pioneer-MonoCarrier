@@ -1,0 +1,65 @@
+material DefaultMaterial
+diffuse 1.0 1.0 1.0
+specular 0.4 0.4 0.4
+
+material HullMat
+diffuse 1.0 1.0 1.0
+specular 0.4 0.4 0.4
+tex_diff hull_diffuse.png
+tex_glow hull_glow.png
+
+material CargoMat
+diffuse 1.0 1.0 1.0
+specular 0.3 0.3 0.3
+tex_diff cargodoor_diffuse.png
+tex_glow cargodoor_glow.png
+
+material RadpanMat
+diffuse 1.0 1.0 1.0
+specular 0.9 0.9 0.9
+shininess 70
+tex_diff radiator_diffuse.png
+tex_glow radiator_glow.png
+
+material IcoMat
+diffuse 0.9 0.9 0.9
+specular 1.0 1.0 1.0
+opacity 95
+tex_diff engine_diffuse.png
+
+material RadiatorHingeMat
+diffuse 1.0 1.0 1.0
+specular 0.3 0.3 0.3
+tex_diff extension_diffuse.png
+
+material ExtensionMat
+diffuse 1.0 1.0 1.0
+specular 0.3 0.3 0.3
+tex_diff extension_diffuse.png
+
+material AntennaTipMat
+diffuse 1.0 1.0 1.0
+specular 0.3 0.3 0.3
+tex_diff extension_diffuse.png
+
+material DockMat
+diffuse 1.0 1.0 1.0
+specular 0.3 0.3 0.3
+tex_diff dock_diffuse.png
+
+material EngineMat
+diffuse 1.0 1.0 1.0
+specular 0.4 0.4 0.4
+tex_diff engine_diffuse.png
+
+lod 300
+mesh monocarrier_high.dae
+
+lod 70
+mesh monocarrier_mid.dae
+
+lod 10
+mesh monocarrier_low.dae
+
+collision monocarrier_low.dae
+mesh monocarrier_high.dae
