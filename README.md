@@ -1,4 +1,7 @@
 # Monolithic Carrier
+![screenshot-20220206-191942](https://user-images.githubusercontent.com/29180904/152690435-5692624c-4629-470c-8e7b-a1520f4fa5bd.png)
+![screenshot-20220206-191843](https://user-images.githubusercontent.com/29180904/152690438-c661a10e-7830-440b-9aba-e96a6aa455bc.png)
+
 **Monolithic Carrier** (formerly known as **B-Class Escort Carrier**) is a superheavy cargo transport vessel designed and manufactured by Haber Corporation.
 
 Although most Monolithic Carriers are owned by Haber Corporation, it is not entirely uncommon to see other shipping and logistics companies operating them.
